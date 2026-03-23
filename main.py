@@ -4,7 +4,6 @@ from utils.async_runner import call_agent_async
 from services.session_service import create_session
 
 nest_asyncio.apply()
-
 async def main():
     await create_session()
 
