@@ -1,6 +1,7 @@
 from agents.base_agent import BaseAgent
 
 class EmailAgent(BaseAgent):
+   
     def __init__(self, model):
         self.model = model
 
