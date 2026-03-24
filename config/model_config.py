@@ -19,4 +19,5 @@ def get_model():
     return GenerativeModel(
         model_name=AGENT_MODEL,
         generation_config=generate_content_config,
-        safety_settings=safety_settings)
+        safety_settings=safety_settings
+    )
