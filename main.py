@@ -14,7 +14,6 @@ Please send me the final report before 5 PM.
 Best,
 Sarah
 """)
-
     await call_agent_async("""
 🔥 YOU WON A FREE IPHONE!!!
 Click here now to claim your prize!!!
