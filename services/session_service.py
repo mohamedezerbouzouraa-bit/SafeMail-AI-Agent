@@ -5,6 +5,7 @@ USER_ID = "user_001"
 SESSION_ID = "email_session"
 
 session_service = InMemorySessionService()
+
 async def create_session():
     await session_service.create_session(
         app_name=APP_NAME,
